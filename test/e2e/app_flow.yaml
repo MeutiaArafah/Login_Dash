@@ -1,0 +1,4 @@
+appId: com.example.hajimeKit # Change this to your actual app ID later
+---
+- launchApp
+- assertVisible: "Initializing Apps..." # Waits for Splash screen text
