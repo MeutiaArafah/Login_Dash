@@ -31,7 +31,7 @@ class AuthRepository {
   Future<void> signInWithGoogle() async {
     // TODO: Paste your Web Client ID from Firebase Console here
     final GoogleSignInAccount? googleUser = await GoogleSignIn(
-      clientId: '1055489763940-b8sr2tb2juajtso7436bp4f0aptckfoh.apps.googleusercontent.com',
+      clientId: '416775531979-u1n3fqsn6pdc0ir1mpf7pml6b97r1303.apps.googleusercontent.com',
     ).signIn();
     
     if (googleUser == null) {
